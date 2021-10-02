@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  loopingImagePath = "assets/ACM-logo.svg"; //temp
   constructor() { }
 
   ngOnInit(): void {

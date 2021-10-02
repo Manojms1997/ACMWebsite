@@ -1,0 +1,33 @@
+.image-container {
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.information-space {
+  width: 100%;
+  /* height: 30vh; */
+}
+
+.information {
+  padding: 8vh;
+}
+
+.contact-space {
+  width: 100%;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#contact-us-text {
+    padding: 3vh;
+    padding-top: 5vh;
+}
