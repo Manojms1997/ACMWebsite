@@ -1,0 +1,72 @@
+<div class="header-container shadow-xl bg-gray-100">
+  <a routerLink="../home" class="acm-logo header-items">
+    <img [src]="acmLogo" />
+  </a>
+  <a routerLink="../home" class="asu-logo header-items">
+    <img [src]="asuLogo"
+  /></a>
+
+  <div class="header-blank-space header-items"></div>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-6 w-6 hamburger-icon header-items"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M4 6h16M4 12h16M4 18h16"
+    />
+  </svg>
+  <a
+    routerLink="../home"
+    class="
+      expanded-header-contents
+      header-items
+      font-sans
+      text-xl
+      hover:text-yellow-900 hover:font-semibold
+    "
+  >
+    Home
+  </a>
+  <a
+    routerLink="../about"
+    class="
+      expanded-header-contents
+      header-items
+      font-sans
+      text-xl
+      hover:text-yellow-900 hover:font-semibold
+    "
+  >
+    About
+  </a>
+  <a
+    routerLink="../events"
+    class="
+      expanded-header-contents
+      header-items
+      font-sans
+      text-xl
+      hover:text-yellow-900 hover:font-semibold
+    "
+  >
+    Events
+  </a>
+  <a
+    href=""
+    class="
+      expanded-header-contents
+      header-items
+      font-sans
+      text-xl
+      hover:text-yellow-900 hover:font-semibold
+    "
+  >
+    Contact
+  </a>
+</div>
