@@ -1,21 +1,55 @@
-<div class="image-container rounded overflow-hidden shadow-lg relative" >
-    <img [src]="loopingImagePath" class="w-full home-page-image absolute">
-    <h1 class="absolute inset-0 z-10 flex justify-center items-center text-2xl text-white font-bold font-mono md:text-6xl">
-        Arizona State University ACM Student Chapter
-    </h1>
+<div class="image-container rounded overflow-hidden shadow-lg relative">
+  <img [src]="loopingImagePath" class="w-full home-page-image absolute" />
+  <h1
+    class="
+      absolute
+      inset-0
+      z-10
+      flex
+      justify-center
+      items-center
+      text-2xl text-white
+      font-bold font-mono
+      md:text-6xl
+    "
+  >
+    Arizona State University ACM Student Chapter
+  </h1>
 </div>
 
 <div class="information-space bg-gray-700">
-    <h1 class="information text-3xl font-mono italic text-yellow-400">Association for Computing Machinery is a society purpose 
-        focused to provide unique opportunities for networking, mentoring, and bonding over common interests.
-    </h1>
-    <h1 class="information text-3xl font-mono italic text-yellow-400">
-        At Arizona State University ACM Student Chapter, we promote educational knowledge in the fields of computing hardware, computer science, and software 
-        development.
-    </h1>
+  <h1 class="information text-3xl font-mono italic text-yellow-400">
+    Association for Computing Machinery is a society purpose focused to provide
+    unique opportunities for networking, mentoring, and bonding over common
+    interests.
+  </h1>
+  <h1 class="information text-3xl font-mono italic text-yellow-400">
+    At Arizona State University ACM Student Chapter, we promote educational
+    knowledge in the fields of computing hardware, computer science, and
+    software development.
+  </h1>
 </div>
 <h1 class="text-5xl font-sans" id="contact-us-text">Contact Us</h1>
 <div class="contact-space">
-    <div class="social-media-contact"></div>
-    <div class="mailing-contact"></div>
+  <div class="contact">
+    <h2 class="font-mono italic text-xl text-yellow-900" id="email">
+      Email: jtngo2@asu.edu
+    </h2>
+    <div class="social-media-links zoom">
+      <a [href]="discordInviteLink" target="_blank">
+        <img [src]="discordImage" alt="discord" />
+      </a>
+      <a [href]="facebookLink" target="_blank">
+        <img [src]="facebookImage" alt="facebook" />
+      </a>
+      <a [href]="sunDevilSyncLink" target="_blank">
+        <img
+          [src]="sunDevilSyncImage"
+          alt="sun devil sync"
+          id="sun-devil-logo"
+        />
+      </a>
+    </div>
+  </div>
+  <!-- <div class="mailing-contact"></div> -->
 </div>
